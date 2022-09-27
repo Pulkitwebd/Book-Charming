@@ -1,0 +1,149 @@
+.headerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cardsBox {
+  width: 100%;
+  margin-bottom: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+}
+
+@media (min-width: 0px) and (max-width: 1200px) {
+  .serviceBox {
+    padding: 0 8px 0 8px !important;
+  }
+  .card {
+    height: 239px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .headerBox {
+    margin-bottom: 18px !important;
+  }
+  .card {
+    height: 239px;
+    border-radius: 10px !important;
+  }
+  .headerName {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+  }
+  .cardName {
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    text-align: center;
+    margin: auto;
+  }
+  .lastCard {
+    height: 239px;
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .LastcardName{
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .card {
+    height: 400px;
+  }
+  .headerName {
+    font-weight: 500 !important;
+    font-size: 50px !important;
+    line-height: 67px !important;
+  }
+  .cardName {
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+    text-align: center;
+    margin: auto;
+  }
+  .lastCard {
+    height: 400px;
+    background-color: #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .LastcardName{
+    font-weight: 400 !important;
+    font-size: 30px !important;
+    line-height: 53px !important;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .card {
+    height: 370px !important;
+  }
+  .lastCard {
+    height: 370px !important;
+  }
+}
+
+@media (min-width: 900px) {
+  .serviceBox {
+    padding: 0 100px 0 100px;
+  }
+  .card {
+    height: 440px;
+  }
+  .headerName {
+    font-weight: 500 !important;
+    font-size: 50px !important;
+    line-height: 67px !important;
+  }
+  .cardName {
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+    text-align: center;
+    margin: auto;
+  }
+  .lastCard {
+    height: 440px;
+    background-color: #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .LastcardName{
+    font-weight: 400 !important; 
+    font-size: 40px !important;
+    line-height: 53px !important;
+    color: #ffffff;
+  }
+}

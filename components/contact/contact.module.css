@@ -1,0 +1,81 @@
+.pageBox {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .pageBox {
+    height: 56vh;
+    padding: 0;
+    padding: 0 8px 0 8px;
+  }
+  .contactName {
+    font-size: 30px !important;
+    line-height: 27px !important;
+  }
+  .paragraph {
+    margin-top: 46px !important;
+    font-size: 15px !important;
+    line-height: 23px !important;
+  }
+  .divider {
+    width: 60vw !important;
+  }
+  .iconsBox {
+    font-size: 21px !important;
+  }
+  .divider {
+    height: 2px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .contactName {
+    font-size: 50px !important;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .pageBox {
+    padding-right: 10rem;
+    padding-left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .pageBox {
+    padding-right: 20vw;
+    padding-left: 20vw;
+  }
+}
+
+.contactName {
+  font-size: 60px;
+  line-height: 77px;
+  margin-bottom: 5px;
+}
+
+.paragraph {
+  margin-top: 72px;
+  font-size: 1.25em;
+  line-height: 24.2px;
+  text-align: center;
+}
+
+.iconsBox {
+  font-size: 31px;
+  margin-top: 43px;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divider {
+  width: 26vw;
+  background-color: #000000;
+  height: 5px;
+}

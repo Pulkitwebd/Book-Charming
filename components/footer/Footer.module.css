@@ -1,0 +1,150 @@
+.footer {
+  position:relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto !important;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footerBoxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px 95px 20px 80px;
+}
+
+.bottomNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconBox {
+  margin: 33px 0 33px 13px;
+}
+
+.subcribeBox {
+  width: 16.5em;
+  margin-bottom: 145px;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .footerBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 60px 20px 60px;
+  }
+  .iconBox {
+    margin: 33px 10px 33px 0px;
+  }
+  .subcribeBox {
+    display: none;
+  }
+  .arrow{
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .email{
+    margin-left: 0px !important;
+    padding-left: 10px !important;
+  }
+}
+
+.subscribeHeading {
+  margin-bottom: 28px;
+}
+
+.subscribeHeading h1 {
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+.subcribePara {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.subscribeContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.subcribeTextfield {
+  width: 70% !important;
+  height: 51px;
+  border-radius: 16px;
+  margin-right: 7px;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+}
+
+.subcribeTextfield:focus {
+  outline: none;
+}
+
+.subcribeBtn {
+  border: 3px solid #ffffff !important;
+  border-radius: 16px !important;
+  padding: 10px 20px 10px 20px !important;
+  width: 28%;
+  height: 51px;
+  text-transform: capitalize !important;
+  font-size: 15px;
+}
+
+@media (min-width: 843px) and (max-width: 990px) {
+  .subcribeBtn {
+    margin-top: 10px !important;
+  }
+}
+
+.footer div {
+  flex-grow: 3;
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 1px solid white;
+  height: 78px;
+  width: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 900px) {
+  .arrow {
+    margin-top: 10px;
+    right: 0 !important;
+    top: 0 !important;
+  }
+  .subcribeBox {
+    display: none !important;
+  }
+  .imglogoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .subcribeBox {
+    margin-bottom: 0;
+  }
+}

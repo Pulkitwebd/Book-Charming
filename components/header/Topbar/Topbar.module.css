@@ -1,0 +1,116 @@
+.headerBox {
+  height: 127px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0 100px 0 100px;
+  overflow: hidden;
+}
+
+@media (min-width: 0px) and (max-width: 900px) {
+  .headerBox {
+    padding: 0;
+  }
+
+  .searchBox {
+    display: none !important;
+  }
+
+  .logoBox {
+    display: none !important;
+  }
+
+  .iconBox {
+    justify-content: center !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .headerBox {
+    height: 33px;
+  }
+  .iconBox {
+    height: 33px !important;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-device-width: 319px) and (max-device-width: 900px) {
+  .headerBox {
+    height: 33px;
+  }
+  .iconBox {
+    height: 33px !important;
+  }
+}
+
+.iconBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 127px;
+  width: 100%;
+}
+
+.bstyle {
+  font-weight: bolder;
+  align-items: center;
+  margin-bottom: 26px;
+  font-size: larger;
+}
+
+.logoBox {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column !important;
+}
+
+.logoline {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 4px;
+  color: #000000;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30vw;
+}
+
+.searchBarBox {
+  display: flex;
+  align-items: center;
+  width: 19vw;
+  height: 37px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.06);
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+}
+.searchBar {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.searchBar:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+.searchField {
+  height: 37px !important;
+  width: 23vw !important;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  border: 1px solid #000000;
+  padding: 0 10px 0 10px;
+  margin-top: 3px !important;
+}

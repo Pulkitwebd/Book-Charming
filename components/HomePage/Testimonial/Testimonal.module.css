@@ -1,0 +1,252 @@
+.swiper > div:nth-child(2) {
+  color: #000000 !important;
+  margin-left: 0px;
+  border-radius: 50%;
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  left: 0;
+}
+
+.swiper > div:nth-child(3) {
+  margin-right: 0px;
+  color: #000000 !important;
+  border-radius: 50%;
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  right: 0;
+}
+
+.slide {
+  background-color: #000000 !important;
+  display: flex;
+}
+
+.innerWriterBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .testimonalBox {
+    padding: 0 8px 0 8px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .swiper {
+    margin: 0 8px 20px 8px;
+  }
+  .swiper > div:nth-child(1) > div:nth-child(1) {
+    margin-left: 0px !important;
+    margin-right: 8px !important;
+  }
+  .swiper > div:nth-child(2) {
+    display: none !important;
+  }
+  .swiper > div:nth-child(3) {
+    display: none !important;
+  }
+  .slide {
+    width: 100% !important;
+    height: 160px !important;
+    border-radius: 10px !important;
+  }
+  .imageBox {
+    border-radius: 10px;
+    width: 35%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageBox div {
+    width: 85%;
+  }
+  .descriptionBox {
+    width: 65%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px 0 10px;
+    overflow: hidden;
+  }
+  .decription {
+    color: #ffffff;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+    text-align: justify;
+  }
+  .writerName {
+    color: #ffffff;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 13px !important;
+  }
+  .line {
+    width: 32px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-right: 16px;
+    margin-top: 2px;
+  }
+  .writerNameBox {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .testimonalBox {
+    padding: 0 8px 0 8px !important;
+    width: 100%;
+    margin-bottom: 20px !important;
+  }
+  .swiper {
+    margin: 0 8px 20px 8px !important;
+    margin-bottom: 20px !important;
+  }
+  .swiper > div:nth-child(1) > div:nth-child(1) {
+    margin-left: 0px !important;
+    margin-right: 15px !important;
+  }
+  .swiper > div:nth-child(2) {
+    display: none !important;
+  }
+  .swiper > div:nth-child(3) {
+    display: none !important;
+  }
+  .slide {
+    width: 100% !important;
+    border-radius: 20px !important;
+    height: 314px !important;
+    width: 77% !important;
+  }
+  .imageBox {
+    width: 30% !important;
+    padding: 0 20px 15px 20px !important;
+  }
+  .imgInnerBox {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+  }
+  .descriptionBox {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 55px 0 30px;
+    overflow: hidden !important;
+  }
+  .decription {
+    text-align: justify;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    color: #ffffff;
+  }
+  .writerNameBox {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+  }
+  .writerName {
+    color: #ffffff;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+  }
+  .line {
+    width: 88px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-right: 30px;
+    margin-top: 5px;
+  }
+  .imageBox {
+    border-radius: 20px;
+    width: 30%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 15px 20px !important;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .swiper > div:nth-child(1) > div:nth-child(1) {
+    margin-left: 90px !important;
+  }
+  .testimonalBox {
+    padding: 0 100px 0 100px !important;
+    width: 100%;
+    margin-bottom: 20px !important;
+  }
+  .swiper {
+    margin: 0 8px 20px 8px !important;
+    margin-bottom: 20px !important;
+  }
+  .slide {
+    width: 100% !important;
+    border-radius: 20px !important;
+    height: 314px !important;
+    width: 77% !important;
+  }
+  .writerNameBox {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+  }
+  .writerName {
+    color: #ffffff;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+  }
+  .line {
+    width: 88px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-right: 30px;
+    margin-top: 5px;
+  }
+  .imageBox {
+    border-radius: 20px;
+    width: 25%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgInnerBox {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+  }
+  .descriptionBox {
+    width: 75%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 55px 0 30px;
+    overflow: hidden !important;
+  }
+  .decription {
+    text-align: justify;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    color: #ffffff;
+  }
+}

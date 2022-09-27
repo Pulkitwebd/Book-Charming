@@ -1,0 +1,239 @@
+.swiper {
+  display: flex !important;
+  justify-content: center !important ;
+  align-items: center !important;
+}
+
+.slide_wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.swiper_slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+.textBox {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.dateAuthorViewBox {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dateAuthorViewBox p {
+  margin-right: 10vw;
+}
+
+.content {
+  word-break: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-right: 5px;
+  text-align: justify;
+}
+
+.readMore {
+  display: inline-block !important;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .swiper {
+    height: 200px !important;
+  }
+  .swiper > div:nth-child(2) {
+    display: none !important;
+  }
+  .swiper > div:nth-child(3) {
+    display: none;
+  }
+  .swiper > div:nth-child(4) {
+    bottom: 0 !important;
+  }
+  .swiper > div:nth-child(4) span {
+    background-color: #000000 !important;
+  }
+  .swiper_slide {
+    height: 87% !important;
+    width: 97vw !important;
+    border-radius: 10px !important;
+  }
+  .imgBox {
+    width: 50%;
+  }
+  .imgBox div {
+    height: 171px !important;
+    border-radius: 10px;
+  }
+  .contentType {
+    font-weight: 300 !important;
+    font-size: 8px !important;
+    line-height: 10px !important;
+  }
+  .heading {
+    font-size: 18px !important;
+    line-height: 20px !important;
+    text-align: justify;
+  }
+  .textBox {
+    width: 50%;
+    padding: 8px;
+    overflow: hidden;
+  }
+  .dateAuthorViewBox {
+    margin-top: 14px !important;
+    width: 100% !important;
+  }
+  .dateAuthorViewBox p {
+    font-size: 8px !important;
+    line-height: 10px !important;
+    margin-right: 8vw !important;
+  }
+  .content {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    margin-top: 10px !important;
+    text-overflow: ellipsis;
+    text-align: justify;
+  }
+  .readMore {
+    font-size: 9px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .mobileBox {
+    display: none !important;
+  }
+  .swiper {
+    height: 355px !important;
+  }
+  .swiper > div:nth-child(2) {
+    display: none !important;
+  }
+  .swiper > div:nth-child(3) {
+    display: none;
+  }
+  .swiper > div:nth-child(4) span {
+    background-color: #000000 !important;
+  }
+  .swiper_slide {
+    border-radius: 29px;
+    height: 84% !important;
+    width: 90vw !important;
+  }
+  .slide_wrapper {
+    align-items: center;
+  }
+  .imgBox {
+    width: 50%;
+  }
+  .imgBox div {
+    height: 296px;
+    border-radius: 29px;
+  }
+  .textBox {
+    width: 50%;
+    padding-left: 12px !important;
+    padding-top: 25px !important;
+    overflow: hidden !important;
+  }
+  .contentType {
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+  .heading {
+    font-size: 23px !important;
+    line-height: 25px !important;
+    text-align: justify;
+  }
+  .dateAuthorViewBox p {
+    font-size: 10px !important;
+    margin-top: 30px !important;
+  }
+  .content {
+    margin-top: 30px !important;
+    font-size: 15px !important;
+    line-height: 17px !important;
+    text-overflow: ellipsis;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .mobileBox {
+    display: none !important;
+  }
+  .swiper {
+    height: 500px;
+  }
+  .swiper > div:nth-child(2) {
+    color: #000000 !important;
+    margin-left: 30px;
+  }
+  .swiper > div:nth-child(3) {
+    color: #000000 !important;
+    margin-right: 30px;
+  }
+  .swiper > div:nth-child(4) span {
+    background-color: #000000 !important;
+  }
+  .slide_wrapper {
+    align-items: center;
+  }
+  .swiper_slide {
+    border-radius: 29px !important;
+    height: 85% !important;
+    width: 80vw !important;
+  }
+  .imgBox {
+    width: 40%;
+    height: 100%;
+    background-color: antiquewhite;
+    border-radius: 29px;
+    overflow: hidden;
+  }
+  .imgBox div {
+    height: 425px;
+  }
+  .textBox {
+    padding-top: 31px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 60%;
+    overflow: hidden;
+  }
+  .contentType {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .heading {
+    font-size: 30px !important;
+    line-height: 40px !important;
+    font-weight: 400 !important;
+  }
+  .dateAuthorViewBox {
+    margin-top: 40px !important;
+  }
+  .content {
+    font-size: 17px !important;
+    line-height: 20px !important;
+    font-weight: 400 !important;
+    margin-top: 40px !important;
+  }
+}

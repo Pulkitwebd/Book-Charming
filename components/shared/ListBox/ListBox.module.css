@@ -1,0 +1,293 @@
+.listBoxCover {
+  height: auto;
+  margin-top: 36px !important;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 58px;
+}
+
+.inner_BoxCover {
+  height: auto;
+}
+
+.bookCategory {
+  margin-top: 14px !important;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .listBoxCover {
+    padding: 0 8px 0 8px;
+    margin-top: 15px !important;
+  }
+  .header {
+    height: 40px !important;
+  }
+  .bookCategory {
+    font-weight: 300 !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+  }
+  .headerName {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+  }
+  .moreBtn {
+    color: rgba(0, 0, 0, 0.61);
+    background-color: #f1f1f1 !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    border: none;
+    cursor: pointer;
+  }
+  .mainBox {
+    border-radius: 10px;
+    height: 145px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  .bookCategory {
+    margin-top: 0px !important;
+  }
+  .heading {
+    margin-top: 3px !important;
+    font-weight: 400 !important;
+    font-size: 19px !important;
+    line-height: 20px !important;
+    cursor: pointer;
+  }
+  .dateAuthorViewBox {
+    width: 80%;
+    margin-top: 15px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+  }
+  .dateAuthorViewBox p {
+    font-weight: 300 !important;
+    font-size: 8px !important;
+    line-height: 6px !important;
+  }
+  .content {
+    margin-top: 15px !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 13px !important;
+    text-align: justify;
+    cursor: default;
+  }
+  .imgBox {
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: default;
+  }
+  .imgBox div {
+    height: 143px;
+  }
+  .textBox {
+    padding: 8px;
+    overflow: hidden;
+  }
+  .eyeView_Box {
+    display: flex;
+    align-items: center;
+    cursor: default;
+  }
+  .eyeIcon {
+    height: 10px !important;
+    width: 10px !important;
+    margin-right: 3px !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .listBoxCover {
+    padding: 0 8px 0 8px;
+    margin-top: 36px !important;
+  }
+  .headerName {
+    font-weight: 500 !important;
+    font-size: 40px !important;
+    line-height: 53px !important;
+  }
+  .moreBtn {
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+    background-color: #f1f1f1 !important;
+    border: none;
+    margin-right: 47px;
+    color: rgba(0, 0, 0, 0.61);
+  }
+  .mainBox {
+    border-radius: 20px;
+    height: 259px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  .heading {
+    font-weight: 400 !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
+    cursor: pointer;
+  }
+  .dateAuthorViewBox {
+    width: 80%;
+    margin-top: 17px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+  }
+  .dateAuthorViewBox p {
+    font-weight: 300 !important;
+    font-size: 11px !important;
+    line-height: 18px !important;
+  }
+  .content {
+    margin-top: 17px !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 16px !important;
+    text-align: justify;
+    cursor: default;
+  }
+  .imgBox {
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: default;
+  }
+  .imgBox div {
+    height: 257px;
+  }
+  .textBox {
+    padding-left: 30px;
+    padding: 10px 10px 10px 17px !important;
+    overflow: hidden;
+  }
+  .eyeView_Box {
+    display: flex;
+    align-items: center;
+    cursor: default;
+  }
+  .eyeIcon {
+    margin-right: 5px !important;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .listBoxCover {
+    padding: 0 8px 0 8px !important;
+    margin-top: 36px !important;
+  }
+  .heading {
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    line-height: 30px !important;
+    cursor: pointer;
+  }
+  .dateAuthorViewBox {
+    width: 100% !important;
+    cursor: default;
+  }
+}
+
+@media (min-width: 900px) {
+  .listBoxCover {
+    padding: 0 100px 0 100px;
+  }
+  .headerName {
+    font-weight: 500 !important;
+    font-size: 40px !important;
+    line-height: 53px !important;
+  }
+  .moreBtn {
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+    background-color: #f1f1f1 !important;
+    border: none;
+    margin-right: 47px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.61);
+  }
+  .mainBox {
+    border-radius: 20px;
+    height: 240px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  .heading {
+    font-weight: 400 !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
+    cursor: pointer;
+  }
+  .dateAuthorViewBox {
+    margin-top: 17px !important;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+  }
+  .dateAuthorViewBox p {
+    font-weight: 300 !important;
+    font-size: 11px !important;
+    line-height: 18px !important;
+  }
+  .eyeView_Box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+  }
+  .eyeIcon {
+    height: 21px !important;
+    width: 21px !important;
+    margin-right: 5px !important;
+  }
+  .content {
+    margin-top: 17px !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    text-align: justify;
+    cursor: default;
+  }
+  .imgBox {
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: default;
+  }
+  .imgBox div {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textBox {
+    padding: 10px 10px 10px 17px;
+    overflow: hidden;
+  }
+}

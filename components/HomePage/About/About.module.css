@@ -1,0 +1,126 @@
+.AboutMeBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.AboutMeBox div {
+  flex: 1 1;
+}
+
+.descriptionBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.readmoreBtn {
+  border: none !important;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+.readmoreBtn:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .AboutMeBox {
+    padding: 0px 8px 0px 8px;
+    margin: 30px 0 30px 0 !important;
+    flex-direction: column;
+  }
+  .imgBox div {
+    width: 229px;
+    height: 306px;
+  }
+  .aboutMe {
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    margin-bottom: 10px !important;
+  }
+  .description {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    text-align: justify;
+  }
+  .readmoreBtn {
+    margin-top: 18px !important;
+    width: 226px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    text-transform: capitalize;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .AboutMeBox {
+    padding: 0px 100px 0px 100px !important;
+    margin: 16px 0 16px 0 !important;
+    flex-direction: column;
+  }
+  .imgBox div {
+    width: 300px !important;
+    height: 400px !important;
+  }
+  .aboutMe {
+    margin-top: 28px !important;
+    margin-right: 0px !important;
+  }
+  .description {
+    margin-right: 0px !important;
+    text-align: justify;
+  }
+  .readmoreBtn {
+    margin-right: 0px !important;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .AboutMeBox {
+    padding: 0px 8px 0px 8px !important;
+    margin: 16px 0 16px 0 !important;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 600px) {
+  .AboutMeBox {
+    padding: 0px 100px 0px 100px !important;
+    margin: 40px 0 40px 0 !important;
+  }
+  .imgBox div {
+    width: 403px;
+    height: 539px;
+  }
+  .aboutMe {
+    margin-right: 30px;
+    font-weight: 300 !important;
+    font-size: 30px !important;
+    line-height: 36px !important;
+    margin-bottom: 28px !important;
+  }
+  .description {
+    margin-right: 30px;
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+    text-align: justify;
+  }
+  .readmoreBtn {
+    margin-right: 30px !important;
+    border: none;
+    width: 299px;
+    height: 58px;
+    border-radius: 20px;
+    margin-top: 42px !important;
+    text-transform: capitalize;
+  }
+}

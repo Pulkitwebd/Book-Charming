@@ -1,0 +1,140 @@
+/* top 127px and 33px on media query is set because of header height  */
+.navbarBox {
+  position: fixed;
+  width: 100%;
+  top: 127px;
+  height: 66px;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .navbarBox {
+    top: 33px;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-device-width: 319px) and (max-device-width: 900px) {
+  .navbarBox {
+    top: 33px;
+  }
+}
+
+.desktopBox {
+  padding: 0 100px 0 100px;
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktopBox div {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+  .desktopBox {
+    display: none;
+  }
+  .mobileBox {
+    display: unset;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 38px 0 15px;
+  }
+  .mobileinnerBox {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .menuIcon {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+  .searchBox {
+    cursor: pointer;
+  }
+  .sidebar {
+    background-color: #000000;
+    width: 253px;
+    display: inline;
+    position: fixed;
+    z-index: 99;
+  }
+  .closeIcon {
+    height: 24px;
+    width: 24px;
+    margin: 24px 0 0 13px;
+  }
+  .sidebarNavigation {
+    margin: 15px 0 0 37px;
+  }
+  .sidebarNavigation div {
+    margin-bottom: 27px;
+    font-weight: 400;
+    line-height: 24.2px;
+    font-size: 17px;
+  }
+  .divider {
+    background-color: rgba(255, 255, 255, 0.29);
+    height: 4px;
+    margin: 40px 24px 0 25px;
+  }
+  .sidebarLogo {
+    margin-top: 28px;
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seachBoxCover {
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchsidebar {
+    background-color: #000000;
+  }
+  .searchBarBox {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 27px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+  }
+  .searchBar {
+    width: 100%;
+    color: #000000;
+    border: none;
+    font-size: 10px;
+    line-height: 12.1px;
+    font-weight: 400;
+  }
+  .searchBar:focus {
+    outline: none;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 900px) {
+  .mobileBox {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .searchsidebar {
+    display: none;
+  }
+}

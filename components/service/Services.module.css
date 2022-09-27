@@ -1,0 +1,193 @@
+.pageNameBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageBox {
+  width: 40% !important;
+  height: 100% !important;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imageBoxEven {
+  width: 40% !important;
+  height: 100% !important;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -1.5px !important;
+}
+
+.descriptionBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60% !important;
+  height: 100% !important;
+  overflow: hidden;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .servicesPage {
+    padding: 0 8px 0 8px;
+  }
+  .pageName {
+    font-size: 30px !important;
+    line-height: 27px !important;
+    margin-bottom: 5px !important;
+  }
+  .divider {
+    width: 60vw !important;
+    height: 2px !important;
+    background-color: #000000 !important;
+  }
+  .serviceBox {
+    margin-top: 18px;
+    margin-bottom: 5px;
+    border: 2px solid #000000 !important;
+    border-radius: 5px !important;
+    height: 156px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .description {
+    font-weight: 400 !important;
+    font-size: 6px !important;
+    line-height: 8px !important;
+    text-align: justify;
+    margin-right: 24px !important;
+    margin-left: 20px !important;
+  }
+  .button {
+    position: absolute !important;
+    width: 88px !important;
+    height: 23px !important;
+    background-color: #000000 !important;
+    border-radius: 5px !important;
+    bottom: 5px !important;
+    align-items: center;
+    font-weight: 600;
+    font-size: 7px !important;
+    line-height: 8px !important;
+    color: #ffffff !important;
+  }
+  .button:hover {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+  }
+  .descriptionHeading {
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 13px !important;
+    text-align: center;
+    margin-bottom: 9px !important;
+    margin-top: 8px !important;
+  }
+  .testimonalBox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .servicesPage {
+    padding: 0 8px 0 8px !important;
+  }
+  .descriptionHeading {
+    margin-bottom: 15px !important;
+    margin-top: 20px !important;
+  }
+  .button {
+    position: absolute !important;
+    width: 200px !important;
+    height: 38px !important;
+    background-color: #000000 !important;
+    border-radius: 10px !important;
+    bottom: 20px !important;
+    align-items: center;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    color: #ffffff !important;
+  }
+  .description {
+    line-height: 23px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .servicesPage {
+    padding: 0 100px 0 100px;
+  }
+  .pageName {
+    font-size: 60px !important;
+    line-height: 77px !important;
+    margin-bottom: 5px !important;
+  }
+  .divider {
+    width: 26vw;
+    background-color: #000000;
+    height: 5px;
+  }
+  .serviceBox {
+    margin-top: 61px;
+    margin-bottom: 23px;
+    border: 3px solid #000000;
+    border-radius: 20px !important;
+    height: 456px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .testimonalBox > div:nth-child(2) {
+    margin: 0 !important;
+  }
+  .button {
+    position: absolute !important;
+    width: 299px !important;
+    height: 58px !important;
+    background-color: #000000 !important;
+    border-radius: 20px !important;
+    bottom: 28px !important;
+    align-items: center;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    color: #ffffff !important;
+  }
+  .button:hover {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+  }
+  .description {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    text-align: justify;
+    margin-right: 24px !important;
+    margin-left: 20px !important;
+  }
+  .descriptionHeading {
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
+    text-align: center;
+    margin-bottom: 23px !important;
+    margin-top: 28px !important;
+  }
+  .testimonalBox {
+    margin-top: 20px !important;
+    margin-bottom: 66px !important;
+  }
+}

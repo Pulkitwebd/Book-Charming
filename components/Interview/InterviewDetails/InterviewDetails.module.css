@@ -1,0 +1,399 @@
+.authorName {
+  text-align: center;
+  margin-right: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.descriptionBox {
+  width: 1000px;
+}
+
+.questionAnswer_Box {
+  margin-bottom: 18px;
+}
+
+.question {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+  margin-bottom: 9px;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.pageNameBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pageName {
+  margin-bottom: 5px !important;
+  font-weight: 500 !important;
+  font-size: 40px !important;
+  line-height: 53px !important;
+  text-align: center;
+}
+
+.commentBoxCover {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.commentBox {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.relpyBox {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.repliesBox {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.commentReply_box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.postBtn:hover {
+  background-color: #000000 !important;
+  color: white !important;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .interview_fullpage {
+    padding: 11px 8px 0 8px;
+    width: 100%;
+  }
+  .heading {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    margin-bottom: 11px !important;
+  }
+  .imageBox {
+    width: 299px;
+    flex-direction: column;
+  }
+  .aboutAuthor_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .author_description {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    text-align: justify;
+  }
+  .answer {
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    text-align: justify;
+  }
+  .viewIconTags_Heading {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+  .divider {
+    width: 70vw;
+    background-color: #000000;
+    height: 3px;
+    margin-bottom: 18px;
+    border-radius: 2px;
+  }
+  .logo {
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    font-size: 25px !important;
+    margin-right: 14px !important;
+    color: #ffffff;
+  }
+  .comment_personName {
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    line-height: 28px !important;
+  }
+  .comment_para {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    text-align: justify;
+  }
+  .viewShareTags_Cover {
+    margin-bottom: 20px;
+  }
+  .nameComments_box {
+    margin-bottom: 20px;
+  }
+  .replyNumber {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    padding-top: 5px;
+    margin: 2px 5px 0 0;
+  }
+  .likeButton {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 3px 0 0 5px;
+  }
+  .commentBox {
+    margin-bottom: 20px;
+  }
+  .postioningBar {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .searchBarBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 96vw;
+    background-color: transparent;
+  }
+  .searchBar {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 17px !important;
+    padding: 10px 0 0 10px;
+  }
+  .searchBar:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  .postandCommentas_box {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .postBtn {
+    width: 109px;
+    height: 40px;
+    background: #000000;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+    margin-top: 10px;
+  }
+  .sortbyBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+  .aboutAuthor_box {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .descriptionBox {
+    width: 48vw !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .bookReviews_fullpage {
+    padding: 34px 100px 0 100px !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .interview_fullpage {
+    padding: 34px 15vw 0 15vw;
+    width: 100%;
+  }
+  .heading {
+    font-weight: 500 !important;
+    font-size: 40px !important;
+    line-height: 53px !important;
+    margin-bottom: 40px !important;
+  }
+  .imageBox {
+    width: 299px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+  .author_description {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    text-align: justify;
+  }
+  .aboutAuthor_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .divider {
+    width: 30vw;
+    background-color: #000000;
+    height: 3px;
+    margin-bottom: 30px;
+  }
+  .logo {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    font-size: 30px !important;
+    margin-right: 20px !important;
+  }
+  .comment_personName {
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+  }
+  .commentReply_box {
+    width: 60vw;
+    width: calc(68vw - 88px);
+  }
+  .comment_para {
+    font-weight: 400;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    text-align: justify;
+  }
+  .questionAnswer_Box {
+    margin-bottom: 18px;
+  }
+  .answer {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    text-align: justify;
+  }
+  .viewShareTags_Cover {
+    margin: 40px 0 11px 0;
+  }
+  .nameComments_box {
+    margin-bottom: 20px;
+  }
+  .replyNumber {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    padding-top: 5px;
+    margin-top: 3px;
+  }
+  .likeButton {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 3px 0 0 5px;
+  }
+  .commentBoxCover {
+    margin-bottom: 40px;
+  }
+  .commentBox {
+    margin-bottom: 10px;
+  }
+  .viewIconTags_Heading {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+  .postioningBar {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .searchBarBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    background-color: transparent;
+    margin-right: 15px;
+  }
+  .searchBar {
+    width: 100%;
+    height: 37px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 23px !important;
+    padding: 6px 0 0 20px !important;
+  }
+  .searchBar:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  .postandCommentas_box {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px 0;
+  }
+  .postBtn {
+    width: 194px;
+    height: 37px;
+    background: #000000;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    line-height: 23px !important;
+  }
+  .sortbyBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

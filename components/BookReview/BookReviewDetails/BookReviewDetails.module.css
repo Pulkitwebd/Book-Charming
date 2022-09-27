@@ -1,0 +1,195 @@
+.bookHeading_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.bookDetails {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .bookReviews_fullpage {
+    padding: 11px 8px 0 8px;
+    width: 100%;
+  }
+  .pageHeading {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    margin-bottom: 11px !important;
+  }
+  .imgAndDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .imageBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 223px;
+  }
+  .stack {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    margin-right: 5vw;
+    margin-left: 10px;
+  }
+  .stack div {
+    margin-bottom: 5px;
+  }
+  .rating div div span {
+    cursor: not-allowed !important;
+  }
+  .rating {
+    margin-bottom: -5px !important;
+  }
+  .bookHeading {
+    width: 100%;
+    font-style: italic !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    line-height: 1.5 !important;
+    text-align: center;
+  }
+  .paragraphBox {
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+    text-align: justify;
+    margin-top: 25px;
+  }
+  .viewIconTags_Heading {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+  .getCopy {
+    display: flex;
+    margin: 18px 0 18px 0;
+  }
+  .getCopy p:first-child {
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+  .getCopy p:nth-child(2) {
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+  .viewShareTags_Cover {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .bookReviews_fullpage {
+    padding: 34px 100px 0 100px !important;
+    width: 100%;
+  }
+  .imgAndDetails {
+    flex-wrap: wrap !important;
+  }
+  .imageBox {
+    display: flex !important;
+    justify-content: center !important;
+    margin-right: 40px !important;
+  }
+  .stack {
+    margin-right: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .bookReviews_fullpage {
+    padding: 34px 15vw 0 15vw;
+    width: 100%;
+  }
+  .pageHeading {
+    font-weight: 500 !important;
+    font-size: 40px !important;
+    line-height: 53px !important;
+    margin-bottom: 40px;
+  }
+  .imgAndDetails {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .imageBox {
+    margin-right: 120px;
+  }
+  .imageBox div:first-child {
+    height: 413px;
+    width: 300px;
+  }
+  .stack {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin-right: 5vw;
+  }
+  .stack div {
+    margin-bottom: 5px;
+  }
+  .rating div div span {
+    cursor: not-allowed !important;
+  }
+  .rating {
+    margin-bottom: -5px !important;
+  }
+  .bookHeading {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    width: 80%;
+  }
+  .paragraphBox {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: justify;
+    margin-top: 45px;
+  }
+  .getCopy {
+    display: flex;
+    margin-top: 30px;
+  }
+  .getCopy p:first-child {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .getCopy p:nth-child(2) {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .viewShareTags_Cover {
+    margin: 30px 0 11px 0;
+  }
+  .viewIconTags_Heading {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+}

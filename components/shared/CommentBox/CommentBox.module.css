@@ -1,0 +1,289 @@
+.commentNameBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.commentBoxCover {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.nameComments_box {
+  margin-bottom: 20px;
+}
+
+.commentBox {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.relpyBox {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.commentNameBox {
+  display: flex;
+  justify-content: center;
+}
+
+.postBtn:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .commentBoxCover {
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    line-height: 47px !;
+    margin-bottom: 5px !important;
+    text-align: center;
+  }
+  .commentName {
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    line-height: 47px !;
+    margin-bottom: 5px !important;
+    text-align: center;
+  }
+  .divider {
+    width: 70vw;
+    background-color: #000000;
+    height: 3px;
+    border-radius: 2px;
+    margin-bottom: 10px !important;
+  }
+  .logo {
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    font-size: 25px !important;
+    margin-right: 14px !important;
+    color: #ffffff;
+  }
+  .nameComments_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .comment_personName {
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    line-height: 28px !important;
+  }
+  .comment_para {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    text-align: justify;
+  }
+  .getCopy {
+    display: flex;
+    margin: 18px 0 18px 0;
+  }
+  .getCopy p:first-child {
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+  .getCopy p:nth-child(2) {
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+  .viewShareTags_Cover {
+    margin-bottom: 20px;
+  }
+  .replyNumber {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    padding-top: 5px;
+    margin: 2px 5px 0 0;
+  }
+  .likeButton {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 5px !important;
+    margin-bottom: 3px !important;
+  }
+  .commentBox {
+    margin-bottom: 20px;
+  }
+  .postioningBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .searchBarBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 61vw;
+    background-color: transparent;
+    margin-right: 4vw;
+  }
+  .searchBar {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 17px !important;
+    padding: 10px 0 0 10px;
+  }
+  .searchBar:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  .postandCommentas_box {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .postBtn {
+    width: 30vw;
+    height: 40px;
+    background-color: #000000 !important;
+    border-radius: 10px !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+    margin-top: 10px;
+  }
+  .sortbyBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .commentBoxCover {
+    margin-bottom: 40px;
+  }
+  .commentName {
+    margin-bottom: 5px !important;
+    font-weight: 500 !important;
+    font-size: 40px !important;
+    line-height: 53px !important;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .divider {
+    width: 30vw;
+    background-color: #000000;
+    height: 3px;
+    margin-bottom: 30px !important;
+  }
+  .commentReply_box {
+    width: calc(68vw - 88px);
+  }
+  .logo {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    font-size: 30px !important;
+    margin-right: 20px !important;
+  }
+  .comment_personName {
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    line-height: 33px !important;
+  }
+  .comment_para {
+    font-weight: 400;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    text-align: justify;
+  }
+  .replyNumber {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    padding-top: 5px;
+    margin-top: 3px;
+  }
+  .likeButton {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 5px !important;
+    margin-bottom: 3px !important;
+  }
+  .commentBoxCover {
+    margin-bottom: 40px;
+  }
+  .viewIconTags_Heading {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+  .postioningBar {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .searchBarBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    background-color: transparent;
+    margin-right: 15px;
+  }
+  .searchBar {
+    width: 100%;
+    height: 37px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 23px !important;
+    padding: 6px 0 0 20px !important;
+  }
+  .searchBar:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  .postandCommentas_box {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px 0;
+  }
+  .postBtn {
+    width: 194px;
+    height: 37px;
+    background-color: #000000 !important;
+    border-radius: 10px !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    line-height: 23px !important;
+  }
+  .sortbyBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

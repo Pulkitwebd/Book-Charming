@@ -1,0 +1,212 @@
+.aboutPage {
+  width: 100%;
+  padding: 0 100px 0 100px;
+}
+
+.pageNameBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pageName {
+  font-size: 60px !important;
+  line-height: 77px !important;
+  margin-bottom: 5px;
+}
+
+.divider {
+  width: 26vw;
+  background-color: #000000;
+  height: 5px;
+}
+
+.authorBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.imgBox div {
+  width: 397px;
+  height: 531px;
+}
+
+.description {
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+.description a {
+  color: #1985e9;
+  font-style: italic !important;
+}
+
+.description p {
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.acheivementBox {
+  margin-top: 20px;
+}
+
+.testimonalBox {
+  margin-top: 20px;
+  margin-bottom: 66px;
+}
+
+.testimonalBox > div:nth-child(2) {
+  margin: 0 !important;
+}
+
+.innerAchivementBox {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .aboutPage {
+    width: 100%;
+    padding: 0 8px 0 8px;
+  }
+  .divider {
+    width: 60vw !important;
+    height: 2px !important;
+  }
+  .pageName {
+    font-size: 30px !important;
+    line-height: 27px !important;
+    margin-bottom: 5px !important;
+  }
+  .authorBox {
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+  .description {
+    margin: 0 !important;
+  }
+  .description p {
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 13px !important;
+    text-align: justify !important;
+    margin: 5px 0 5px 0 !important;
+  }
+  .imgBox div {
+    width: 226px !important;
+    height: 302px !important;
+  }
+  .acheivementBox {
+    margin-top: 0 !important;
+  }
+  .acheivementBox > div:first-child {
+    margin-bottom: -5px !important;
+  }
+  .achievementName {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    text-align: center;
+  }
+  .givenBy {
+    margin-top: 3px !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+  }
+  .testimonalBox {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .testimonalBox > div:nth-child(2) {
+    margin: 0 8px 0 8px !important;
+  }
+  .imageWrapper div {
+    height: 210px !important;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .imgBox div {
+    width: 300px !important;
+    height: 400px !important;
+  }
+  .description p {
+    margin: 20px 0 0 0 !important;
+  }
+  .aboutPage {
+    width: 100%;
+    padding: 0 8px 0 8px;
+  }
+  .authorBox {
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+  .achievementName {
+    margin-top: 8px !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 12px !important;
+    text-align: center !important;
+  }
+  .givenBy {
+    margin-top: 10px !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+  }
+  .imageWrapper div {
+    height: 210px !important;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+  .authorBox {
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+  .description p {
+    margin: 20px 0 0 0 !important;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .achievementName {
+    margin-top: 8px !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 12px !important;
+    text-align: center !important;
+  }
+  .givenBy {
+    margin-top: 10px !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+  }
+  .imageWrapper div {
+    height: 210px !important;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+  }
+}
